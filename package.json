@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "bun run build"
   },
   "repository": {
     "type": "git",
