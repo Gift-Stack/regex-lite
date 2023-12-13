@@ -1,0 +1,39 @@
+{
+  "name": "regex-helper",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A TypeScript utility library for building and validating regular expressions with ease.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gift-Stack/regex-helper.git"
+  },
+  "keywords": [
+    "regex",
+    "typescript",
+    "utility",
+    "validation"
+  ],
+  "author": "Gift Opia <gkenny896@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gift-Stack/regex-helper/issues"
+  },
+  "homepage": "https://github.com/Gift-Stack/regex-helper#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "bun-types": "latest",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
