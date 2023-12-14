@@ -5,9 +5,10 @@
     "target": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    // "allowImportingTsExtensions": true,
+    // "noEmit": true,
     "composite": true,
+    "declaration": true,
     "strict": true,
     "downlevelIteration": true,
     "skipLibCheck": true,
@@ -18,6 +19,8 @@
     "types": [
       "jest",
       "bun-types" // add Bun global
-    ]
-  }
+    ],
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules", "dist"]
 }

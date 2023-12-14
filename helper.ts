@@ -1,4 +1,4 @@
-import regex, { validate as regexValidation } from ".";
+import regex, { validate as regexValidation } from "./index";
 
 const PassWord = "TheNameIsGifted123_!!";
 const passwordValidation = regex(PassWord)

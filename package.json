@@ -8,7 +8,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc",
+    "build": "bun build ./index.ts --outdir ./dist && bun run build:declaration",
+    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.json", 
     "prepare": "bun run build"
   },
   "repository": {

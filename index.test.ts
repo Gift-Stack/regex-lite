@@ -1,4 +1,4 @@
-import regex, { validate } from ".";
+import regex, { validate } from "./index";
 
 describe("RegexHelper Tests", () => {
   test("Validates a password correctly", () => {

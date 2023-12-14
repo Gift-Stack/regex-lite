@@ -1,15 +1,95 @@
-# regex-helper
+# Regex-Helper
 
-To install dependencies:
+## Description
+
+`regex-helper` is a TypeScript utility library designed to simplify the creation and validation of regular expressions. This library provides a fluent, chainable interface to build complex regular expressions with ease and readability.
+
+## Features
+
+- Fluent and chainable API
+- Easy construction of complex regex patterns
+- Built-in validators for common use-cases like email, URL, phone numbers, etc.
+- Customizable and extendable
+- Fully typed with TypeScript for better development experience
+
+## Installation
 
 ```bash
-bun install
+bun i regex-helper
 ```
 
-To run:
+or
 
 ```bash
-bun run index.ts
+npm install regex-helper
 ```
 
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+or
+
+```bash
+yarn add regex-helper
+```
+
+## Usage
+
+Here's a quick example to get you started:
+
+```typescript
+import regex, { validate } from "regex-helper";
+
+const pattern = regex("Your test string")
+  .hasText()
+  .hasNumbers()
+  .hasSpecialCharacter()
+  .min(8)
+  .max(20);
+
+console.log(validate(pattern)); // true or false based on the validation
+```
+
+## API Reference
+
+[Provide detailed API documentation or link to external documentation.]
+
+### Example Methods
+
+- `hasText()`: Ensures the string contains text (a-z, A-Z).
+- `hasNumbers()`: Ensures the string contains numbers.
+- `hasSpecialCharacter()`: Ensures the string contains special characters.
+- `min(length: number)`: Sets the minimum length of the string.
+- `max(length: number)`: Sets the maximum length of the string.
+- `validate()`: Executes the validation and returns a boolean result.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - [gkenny896@gmail.com](mailto:gkenny896@gmail.com)
+
+Project Link: [https://github.com/Gift-Stack/regex-helper](https://github.com/Gift-Stack/regex-helper)
+
+---
+
+### Notes:
+
+1. **Customization**: Modify the sections according to your project's specifics.
+2. **API Reference**: If your library has more methods or detailed configurations, consider creating a separate documentation file or section.
+3. **License and Contact**: Replace with your actual license and contact information.
+4. **Engagement**: Encourage users to star, fork, or contribute to the project.
+
+This `README.md` template provides a solid foundation for your `regex-helper` project, ensuring that users and potential contributors have all the information they need at a glance.
