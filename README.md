@@ -1,8 +1,8 @@
-# Regex.js
+# Regex Lite
 
 ## Description
 
-`regex-js` is a TypeScript utility library designed to simplify the creation and validation of regular expressions. This library provides a fluent, chainable interface to build complex regular expressions with ease and readability.
+`regex-lite` is a TypeScript utility library designed to simplify the creation and validation of regular expressions. This library provides a fluent, chainable interface to build complex regular expressions with ease and readability.
 
 ## Features
 
@@ -15,19 +15,19 @@
 ## Installation
 
 ```bash
-bun i regex-js
+bun i regex-lite
 ```
 
 or
 
 ```bash
-npm install regex-js
+npm install regex-lite
 ```
 
 or
 
 ```bash
-yarn add regex-js
+yarn add regex-lite
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ yarn add regex-js
 Here's a quick example to get you started:
 
 ```typescript
-import regex, { validate } from "regex-js";
+import regex, { validate } from "regex-lite";
 
 const pattern = regex("Your test string")
   .hasText()
@@ -83,7 +83,7 @@ Gift Opia - [gkenny896@gmail.com](mailto:gkenny896@gmail.com)
 
 Twitter - [@theNameIsGiFTED](http://twitter.com/theNameIsGiFTED)
 
-Project Link: [https://github.com/Gift-Stack/regex-js](https://github.com/Gift-Stack/regex-js)
+Project Link: [https://github.com/Gift-Stack/regex-lite](https://github.com/Gift-Stack/regex-lite)
 
 ---
 
@@ -94,4 +94,4 @@ Project Link: [https://github.com/Gift-Stack/regex-js](https://github.com/Gift-S
 3. **License and Contact**: Replace with your actual license and contact information.
 4. **Engagement**: Encourage users to star, fork, or contribute to the project.
 
-This `README.md` template provides a solid foundation for your `regex-js` project, ensuring that users and potential contributors have all the information they need at a glance.
+This `README.md` template provides a solid foundation for your `regex-lite` project, ensuring that users and potential contributors have all the information they need at a glance.
