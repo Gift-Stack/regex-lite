@@ -79,7 +79,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [gkenny896@gmail.com](mailto:gkenny896@gmail.com)
+Gift Opia - [gkenny896@gmail.com](mailto:gkenny896@gmail.com)
+
+Twitter - [@theNameIsGiFTED](http://twitter.com/theNameIsGiFTED)
 
 Project Link: [https://github.com/Gift-Stack/regex-helper](https://github.com/Gift-Stack/regex-helper)
 
