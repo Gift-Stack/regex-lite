@@ -1,20 +1,23 @@
 {
-  "name": "regex-helper",
+  "name": "regex-js",
   "module": "index.ts",
   "type": "module",
   "version": "0.1.0",
   "description": "A TypeScript utility library for building and validating regular expressions with ease.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "bun": "./index.ts"
+  },
   "scripts": {
     "test": "jest",
     "build": "bun build ./index.ts --outdir ./dist && bun run build:declaration",
-    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.json", 
+    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.json",
     "prepare": "bun run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gift-Stack/regex-helper.git"
+    "url": "git+https://github.com/Gift-Stack/regex-js.git"
   },
   "keywords": [
     "regex",
@@ -25,9 +28,9 @@
   "author": "Gift Opia <gkenny896@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gift-Stack/regex-helper/issues"
+    "url": "https://github.com/Gift-Stack/regex-js/issues"
   },
-  "homepage": "https://github.com/Gift-Stack/regex-helper#readme",
+  "homepage": "https://github.com/Gift-Stack/regex-js#readme",
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "bun-types": "latest",

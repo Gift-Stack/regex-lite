@@ -1,8 +1,8 @@
-# Regex-Helper
+# Regex.js
 
 ## Description
 
-`regex-helper` is a TypeScript utility library designed to simplify the creation and validation of regular expressions. This library provides a fluent, chainable interface to build complex regular expressions with ease and readability.
+`regex-js` is a TypeScript utility library designed to simplify the creation and validation of regular expressions. This library provides a fluent, chainable interface to build complex regular expressions with ease and readability.
 
 ## Features
 
@@ -15,19 +15,19 @@
 ## Installation
 
 ```bash
-bun i regex-helper
+bun i regex-js
 ```
 
 or
 
 ```bash
-npm install regex-helper
+npm install regex-js
 ```
 
 or
 
 ```bash
-yarn add regex-helper
+yarn add regex-js
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ yarn add regex-helper
 Here's a quick example to get you started:
 
 ```typescript
-import regex, { validate } from "regex-helper";
+import regex, { validate } from "regex-js";
 
 const pattern = regex("Your test string")
   .hasText()
@@ -83,7 +83,7 @@ Gift Opia - [gkenny896@gmail.com](mailto:gkenny896@gmail.com)
 
 Twitter - [@theNameIsGiFTED](http://twitter.com/theNameIsGiFTED)
 
-Project Link: [https://github.com/Gift-Stack/regex-helper](https://github.com/Gift-Stack/regex-helper)
+Project Link: [https://github.com/Gift-Stack/regex-js](https://github.com/Gift-Stack/regex-js)
 
 ---
 
@@ -94,4 +94,4 @@ Project Link: [https://github.com/Gift-Stack/regex-helper](https://github.com/Gi
 3. **License and Contact**: Replace with your actual license and contact information.
 4. **Engagement**: Encourage users to star, fork, or contribute to the project.
 
-This `README.md` template provides a solid foundation for your `regex-helper` project, ensuring that users and potential contributors have all the information they need at a glance.
+This `README.md` template provides a solid foundation for your `regex-js` project, ensuring that users and potential contributors have all the information they need at a glance.
