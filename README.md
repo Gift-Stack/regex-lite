@@ -86,12 +86,3 @@ Twitter - [@theNameIsGiFTED](http://twitter.com/theNameIsGiFTED)
 Project Link: [https://github.com/Gift-Stack/regex-lite](https://github.com/Gift-Stack/regex-lite)
 
 ---
-
-### Notes:
-
-1. **Customization**: Modify the sections according to your project's specifics.
-2. **API Reference**: If your library has more methods or detailed configurations, consider creating a separate documentation file or section.
-3. **License and Contact**: Replace with your actual license and contact information.
-4. **Engagement**: Encourage users to star, fork, or contribute to the project.
-
-This `README.md` template provides a solid foundation for your `regex-lite` project, ensuring that users and potential contributors have all the information they need at a glance.
