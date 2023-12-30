@@ -49,7 +49,7 @@ console.log(validate(pattern)); // true or false based on the validation
 
 ## API Reference
 
-[Provide detailed API documentation or link to external documentation.]
+[Bun Doc](http://bun.sh)
 
 ### Example Methods
 
